@@ -50,12 +50,16 @@ nav a:hover {
 
 /* BANNER */
 .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
   background-image: url(imgs/PERSONAS_Vida.jpg);
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .banner h3{
   background-color: #593F62;
@@ -244,4 +248,9 @@ footer .arriba{
   top: -25px;
   border-radius: 50%;
   line-height: 50px;
+}
+
+@media(max-width: 720px){
+ 
+
 }
