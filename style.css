@@ -13,7 +13,7 @@ html{
 header {
   display: flex;
   min-height: 70px;
-  background-color: #C8ADC0;
+  background-color: rgb(200, 173, 192, .4);
   justify-content: space-between;
   align-items: center;
   padding: 0;
@@ -52,7 +52,7 @@ nav a:hover {
 .banner {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
   flex-direction: column;
   background-image: url(imgs/PERSONAS_Vida.jpg);
@@ -62,21 +62,22 @@ nav a:hover {
   background-position: center center;
 }
 .banner h3{
-  background-color: #593F62;
+  background-color: rgb(89, 63, 98, .5);
   color: white;
   padding: 15px;
   font-size: 40px;
   margin: 10px 25px;
 }
 .banner button {
-  border-radius: 8px;
-  background-color: #C8ADC0;
+  border-radius: 10px;
+  background-color: #ffffff;
   color: black;
   border: 2px solid #593F62;
   font-size: 30px;
+  font-weight: bold;
   cursor: pointer;
   margin: 10px;
-  padding: 10px;
+  padding: 5px 10px;
 }
 .banner button:hover{
   color: white;
@@ -88,7 +89,7 @@ nav a:hover {
 
 /* QUIENES SOMOS */
 .quienessomos {
-  padding: 25px;
+  padding: 65px 25px;
   margin: 25px;
   display: flex;
   flex-direction: row;
@@ -213,14 +214,14 @@ nav a:hover {
   align-items: center;
 }
 .contacto button{
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #593F62;
   color: white;
   border: 2px solid #593F62;
   font-size: 30px;
   cursor: pointer;
   margin: 10px;
-  padding: 10px;
+  padding: 5px 10px;
 }
 .contacto button:hover{
   color: #593F62;
